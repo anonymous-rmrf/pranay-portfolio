@@ -28,7 +28,7 @@ class Home extends Component {
                     </center>
                 </div>
                 </Link>
-                <Link to="#">
+                <Link to="/works">
                 <div class="thirdQuad">
                     <center>
                         <Icon style={{ fontSize: "20vh" }} type="appstore" />

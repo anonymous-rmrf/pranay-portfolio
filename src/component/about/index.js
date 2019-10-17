@@ -6,14 +6,24 @@ class About extends Component {
     render() {
         return (
             <div>
-                <center style={{marginTop:"2%"}}>
+                <div class="heading">
+
+                </div>
+
+
+
+
+
+
+                {/* footer */}
+                <div class="quoteDiv" style={{marginTop:"2%"}}>
                     <p class="quote">
-                        Believe in understanding the rules of the ‘game’
+                        <u>Believe in understanding the rules of the ‘game’
                     and use all my skills to play it better than anyone
                     else for the progress of oneself and the company
-                    and never refrain from learning
+                    and never refrain from learning</u>
                     </p>
-                </center>
+                </div>
             </div>
         )
     }
