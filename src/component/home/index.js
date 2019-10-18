@@ -38,7 +38,7 @@ class Home extends Component {
                     </center>
                 </div>
                 </Link>
-                <Link to="#">
+                <Link to="/contact">
                 <div class="fourthQuad">
                     <center>
                         <Icon style={{ fontSize: "20vh" }} type="mail" />
