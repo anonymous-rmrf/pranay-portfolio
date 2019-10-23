@@ -2,7 +2,7 @@
   margin:0;
   padding:0;
 }
-.body
+/* .body
 {
   position: fixed;
   left:0;
@@ -11,6 +11,9 @@
   height:100%;
   overflow:hidden;
   background-color:white;
+} */
+.highcharts-credits{
+  display:none;
 }
 @media only screen and (max-width: 1024px) {
   .body{
