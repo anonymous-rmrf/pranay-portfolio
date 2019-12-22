@@ -1,0 +1,83 @@
+#lead {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 1080px;
+    background: url(../images/cover.jpg) 0% 0% / cover;
+    padding: 15px;
+    overflow: hidden;
+}
+
+#lead-content {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#lead-content h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 5em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+}
+
+#lead-content h2 {
+    color: rgb(160, 207, 238);
+    font-weight: 500;
+    font-size: 2.25em;
+    margin-bottom: 15px;
+}
+
+#lead-content a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-radius: 30px;
+    transition: all 0.5s ease 0s;
+}
+
+#lead-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#lead-down {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#lead-down span {
+    cursor: pointer;
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+}
