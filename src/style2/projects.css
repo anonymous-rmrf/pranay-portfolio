@@ -6,8 +6,9 @@
 
 .project-block {
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     width: 300px;
+    float: left;
     border: solid;
     margin: 2% 0px 0px 2%;
     background-color: #dcd9d9;

@@ -24,6 +24,7 @@ class About2 extends Component {
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
                   mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
                   mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
                 </p>
               </div>
@@ -40,7 +41,7 @@ class About2 extends Component {
                     Project Name
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
+                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita, */}
                     mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
                   </p>
                 </div>
@@ -79,6 +80,7 @@ class About2 extends Component {
                   </p>
                 </div>
             </div>
+            <div style={{clear: "both"}} ></div>
           </div>
         </div>
     );

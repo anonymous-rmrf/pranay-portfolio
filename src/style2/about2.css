@@ -34,10 +34,11 @@
     background: rgb(52, 152, 219);
 }
 
-p {
+/* p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
+    color: blue;
+} */
