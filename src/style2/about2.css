@@ -34,11 +34,8 @@
     background: rgb(52, 152, 219);
 }
 
-/* p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    color: blue;
-} */
+#about p {
+    color: #74808a;
+    margin: 0;
+    font-size: 1.3em;
+}

@@ -9,16 +9,16 @@ class Lead extends Component {
         <div id="lead-content">
           <h1>Pranay Agarwal</h1>
           <h2>Software Engineer</h2>
-          <a href="#" class="btn-rounded-white">Download Resume</a>
+          <a href="../pdf/pranayresume.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
 
         <div id="lead-overlay"></div>
 
-        <div id="lead-down">
+        {/* <div id="lead-down">
           <span>
             <i class="fa fa-chevron-down" aria-hidden="true"></i>
           </span>
-        </div>
+        </div> */}
       </div>
 
     );

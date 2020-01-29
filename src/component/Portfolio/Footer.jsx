@@ -10,7 +10,7 @@ class Footer extends Component {
 					<div class="row">
 						<div class="col-sm-5 copyright">
 							<p>
-								Copyright &copy; 2017 YOUR NAME
+								Copyright &copy; 2020 PRANAY AGARWAL
                     </p>
 						</div>
 						<div class="col-sm-2 top">

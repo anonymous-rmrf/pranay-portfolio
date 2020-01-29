@@ -2,87 +2,39 @@ import React, { Component } from 'react'
 import 'antd/dist/antd.css'
 import '../../style2/projects.css'
 import image from '../../images/cover.jpg'
+import { Card } from 'antd'
 
 class About2 extends Component {
-  // var projects = 
+  componentDidMount() {
+    console.log(this.props, "propopoppo")
+  }
   render() {
-    return (
-        <div id="projects">
-          <h2 class="heading">Projects</h2>
-          <div className="container">
-          <div className="project-block">
-              <div className="project-image">
-                <img src={image} />
-                {/* <p>
-                  Lorem ipsum dolor Sint
-                </p> */}
-              </div>
-              <div className="project-info">
-                <h3>
-                  Project Name
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
-                  mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
-                  mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
-                </p>
-              </div>
-          </div>
-            <div className="project-block">
-                <div className="project-image">
-                  <img src={image} />
-                  <p>
-                    Lorem ipsum dolor Sint
-                  </p>
-                </div>
-                <div className="project-info">
-                  <h3>
-                    Project Name
-                  </h3>
-                  <p>
-                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita, */}
-                    mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
-                  </p>
-                </div>
-            </div>
-            <div className="project-block">
-                <div className="project-image">
-                  <img src={image} />
-                  <p>
-                    Lorem ipsum dolor Sint
-                  </p>
-                </div>
-                <div className="project-info">
-                  <h3>
-                    Project Name
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
-                    mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
-                  </p>
-                </div>
-            </div>
-            <div className="project-block">
-                <div className="project-image">
-                  <img src={image} />
-                  <p>
-                    Lorem ipsum dolor Sint
-                  </p>
-                </div>
-                <div className="project-info">
-                  <h3>
-                    Project Name
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
-                    mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
-                  </p>
-                </div>
-            </div>
-            <div style={{clear: "both"}} ></div>
-          </div>
+
+    var PROJECTS = this.props.projects.map(item => {
+      return (
+        <div className="card card-default project-block1" >
+        <div class="card-body">
+          <p class="lead">{item.name}</p>
+          <p>{item.description}</p>
+          <a href={item.link}>View Project</a>
         </div>
+      </div>
+      )
+    })
+    return (
+      <div id="projects" className="background-alt" >
+        <h2 className="heading">Projects</h2>
+        <div className="container">
+            {PROJECTS}
+              {/* <div className="card card-default project-block1" >
+                <div class="card-body">
+                  <p class="lead">Burning the candle.</p>
+                  <p>A stitch in time saves nine.  All good things come to those who wait.  Too  many cooks spoil the broth.  I have seen the future, and it works. All good things come to those who wait.  Too  many cooks spoil the broth.</p>
+                  <a href="#">GitHub</a>
+                </div>
+              </div> */}
+        </div>
+      </div>
     );
   }
 }

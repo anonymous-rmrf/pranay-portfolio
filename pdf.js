@@ -8,15 +8,12 @@ console.log((path.resolve(__dirname, './src/pdf/pranayresume.pdf')))
 var pdfPath = path.resolve(__dirname, './src/pdf/pranayresume.pdf')
 
 // function pdf2json(){
-    let inputStream = fs.createReadStream(pdfPath, {bufferSize: 64 * 1024});
-    let outputStream = fs.createWriteStream(pdfPath);
+    // let inputStream = fs.createReadStream(pdfPath, {bufferSize: 64 * 1024});
+    // let outputStream = fs.createWriteStream(pdfPath);
     
-    inputStream.pipe(new PDFParser()).pipe(new StringifyStream()).pipe(outputStream);
+    // inputStream.pipe(new PDFParser()).pipe(new StringifyStream()).pipe(outputStream);
   
 // }
-
-
-// pdf2json()
 
 function pdfjs() {
     var loadingTask = pdfjsLib.getDocument(pdfPath);
@@ -65,3 +62,4 @@ function pdfjs() {
     });
 }
 
+// pdfjs()
