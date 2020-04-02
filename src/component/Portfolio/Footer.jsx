@@ -21,13 +21,13 @@ class Footer extends Component {
 						<div class="col-sm-5 social">
 							<ul>
 								<li>
-									<a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+									<a href="https://github.com/pranayag15" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
 								</li>
 								<li>
-									<a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+									<a href="https://www.linkedin.com/in/pranayag15/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 								</li>
 								<li>
-									<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+									<a href="https://www.facebook.com/pranayag15" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>

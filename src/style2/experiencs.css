@@ -112,3 +112,40 @@
 	font-weight: 300;
 	color: #374054
 }
+
+@media only screen and (max-width: 600px) {
+    #experience-timeline {
+		display: none;
+	}
+	
+	.vtimeline-content-mobile {
+		background: #fff;
+		border: 1px solid #e6e6e6;
+		padding: 15px;
+		border-radius: 3px;
+		text-align: left
+	}
+
+	.vtimeline-content-mobile h3 {
+		font-weight: 500;
+		float: left;
+		color: rgb(55, 64, 84);
+		margin: 0px;
+	}
+
+	.vtimeline-content-mobile h4 {
+		clear: both;
+    font-weight: 500;
+    margin: 0px 0px 15px;
+	}
+
+	.vtimeline-date-mobile {
+		width: 260px;
+		text-align: right;
+		float: right;
+		/* left: 0; */
+		top: 10px;
+		font-weight: 300;
+		color: #374054
+	}
+  }
