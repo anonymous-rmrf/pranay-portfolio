@@ -1,0 +1,25 @@
+footer {
+    padding: 50px 0;
+    background-color: #cececeb5;
+}
+
+.social {
+    text-align: right;
+}
+
+.social ul {
+    margin: 5px 12% 0 0;
+    padding: 0;
+}
+
+.social li {
+    display: inline-block;
+    font-size: 1.50em;
+    list-style: none;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.social a {
+    color: #000;
+}

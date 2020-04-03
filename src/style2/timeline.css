@@ -1,0 +1,10 @@
+.timeline-wrapper {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .timeline-wrapper {
+        display: block;
+        margin: 5% 5%;
+    }
+  }

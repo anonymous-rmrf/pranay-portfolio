@@ -1,0 +1,55 @@
+#projects {
+    /* background-color: burlywood; */
+    /* border-color: black; */
+    text-align: center;
+    padding: 50px 15px 20px;
+}
+
+.project-block {
+    background-color: white;
+    padding: 5%;
+    margin-bottom: 10%;
+
+}
+
+
+
+.project-block1 {
+    background-color: white;
+    padding: 1%;
+    margin: 0 2% 2% 0;
+    width: 100%;
+    /* display: inline-block; */
+}
+
+.project-block a {
+    color: #1890ff;
+    background-color: white;
+    position: absolute;
+    bottom: 15px;
+}
+
+.bobo {
+    width: 100%;
+    background-color: white;
+    padding: 5%;
+    height: 250px;
+    margin-top: 5%;
+}
+
+.bobo a {
+    color: #1890ff;
+    background-color: white;
+    /* position: absolute;
+    bottom: 15px; */
+}
+
+@media only screen and (max-width: 600px) {
+    .project-block1  {
+      width: 100%;
+    }
+
+    .bobo {
+      margin-bottom: 4%;
+    }
+  }
