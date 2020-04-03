@@ -52,6 +52,11 @@
             "link": "https://github.com/pranayag15/bodycount"
         },
         {
+            "name": "Restaurant Finder",
+            "description": "A C++ application used to find restaurant in a locality using pincode. This is the part of an Academic Project in Object Oriented Programming.",
+            "link": "https://github.com/pranayag15/YelpCamp-Project"
+        },
+        {
             "name": "UNIVERCELL",
             "description": "A dummy e-commerce website to choose, select and buy electronics. Login to your account and start shopping.",
             "link": "https://github.com/pranayag15/UniverCell-Project"
@@ -71,5 +76,5 @@
             "score": "88.8%"
         }
     ],
-    "skills": ["HTML", "JavaScript", "Node.js", "MongoDB", "SQL", "Git", "ReactJS", "ReduxJS", "Amazon Web Services", "Docker", "Adobe Photoshop", "Adobe Illustrator"]
+    "skills": ["HTML", "C++", "JavaScript", "Node.js", "MongoDB", "SQL", "Git", "ReactJS", "ReduxJS", "Amazon Web Services", "Docker", "Adobe Photoshop", "Adobe Illustrator"]
 }
