@@ -1,0 +1,80 @@
+{
+    "name": "Pranay Agarwal",
+    "position": "Software Engineer",
+    "about": "I'm Computer Science undergrad pursuing my Bachelors degree from IIIT Bhubaneswar. I'm a full stack web developer and trying my hands in the field of Cloud Computing. ",
+    "experience": [
+        {
+            "name": "FINITO",
+            "timeline": "March 2019 - Present",
+            "role": "Full Stack Developer",
+            "about":[
+                "A self-checkout app that lets you scan your product, pay online and go. The project consist of two parts – App and admin web panel for maintaining the inventory and other data.",
+                "Worked on the admin panel’s UI, Frontend API integration and backend."
+            ]
+        },
+        {
+            "name": "RADICALI",
+            "timeline": "September 2019 - October 2019",
+            "role": "Front-end Developer",
+            "about": [
+                "A WebApp to manage regulation changes easy to handle and manage.",
+                "Worked on the WebApp’s UI, Frontend API integration."
+            ]
+        },
+        {
+            "name": "International Institute of Information Technology",
+            "timeline": "May 2019 - July 2019",
+            "role": "Front-end Developer",
+            "about": [
+                "Managed Placement website of IIIT-BH"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Dynamic UI – Drag and Drop",
+            "description": "A WebApp that lets you create a personalized static webpage using drag, drop and resize of components.",
+            "link": "https://github.com/draggers-dagger/dragToMake"
+        },
+        {
+            "name": "ADVAITA.IO",
+            "description":"A full-featured techno-cult fest website of the college including sign-up and a payment gateway that garnered 12,000+ views and 1100+ registrations.",
+            "link": "https://advaita2019.herokuapp.com"
+        },
+        {
+            "name": "CODE4SHARE",
+            "description": "A collaborative code editor to share live code with additional features like a chat box and video calling.",
+            "link": "#"
+        },
+        {
+            "name": "BODY DETECTION",
+            "description": "Captures frames from live CCTV video and each frame is encoded into a string which is used to detect the number of persons in that frame. Plots a graph of the number of persons detected versus time.",
+            "link": "https://github.com/pranayag15/bodycount"
+        },
+        {
+            "name": "Restaurant Finder",
+            "description": "A C++ application used to find restaurant in a locality using pincode. This is the part of an Academic Project in Object Oriented Programming.",
+            "link": "https://github.com/pranayag15/YelpCamp-Project"
+        },
+        {
+            "name": "UNIVERCELL",
+            "description": "A dummy e-commerce website to choose, select and buy electronics. Login to your account and start shopping.",
+            "link": "https://github.com/pranayag15/UniverCell-Project"
+        }
+    ],
+    "education": [
+        {
+            "qualification": "Bachelor of Technology",
+            "college": "IIIT Bhubaneswar",
+            "yearOfPassing": "August 2017- May 2021",
+            "score": 7.78
+        },
+        {
+            "qualification": "Senior Secondary",
+            "college": "K.C.M School",
+            "yearOfPassing": "July 2015 - March 2017",
+            "score": "88.8%"
+        }
+    ],
+    "skills": ["HTML", "C++", "JavaScript", "Node.js", "MongoDB", "SQL", "Git", "ReactJS", "ReduxJS", "Amazon Web Services", "Docker", "Adobe Photoshop", "Adobe Illustrator"]
+}

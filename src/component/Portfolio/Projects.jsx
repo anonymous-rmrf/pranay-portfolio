@@ -1,90 +1,35 @@
-import React, { Component } from 'react'
-import 'antd/dist/antd.css'
-import '../../style2/projects.css'
-import image from '../../images/cover.jpg'
+import React, { Component } from "react";
+import "antd/dist/antd.css";
+import "../../style2/projects.css";
+import image from "../../images/cover.jpg";
+import { Card } from "antd";
 
 class About2 extends Component {
-  // var projects = 
+  componentDidMount() {
+    console.log(this.props, "propopoppo");
+  }
   render() {
-    return (
-        <div id="projects">
-          <h2 class="heading">Projects</h2>
-          <div className="container">
-          <div className="project-block">
-              <div className="project-image">
-                <img src={image} />
-                {/* <p>
-                  Lorem ipsum dolor Sint
-                </p> */}
-              </div>
-              <div className="project-info">
-                <h3>
-                  Project Name
-                </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
-                  mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
-                  mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
-                </p>
-              </div>
-          </div>
-            <div className="project-block">
-                <div className="project-image">
-                  <img src={image} />
-                  <p>
-                    Lorem ipsum dolor Sint
-                  </p>
-                </div>
-                <div className="project-info">
-                  <h3>
-                    Project Name
-                  </h3>
-                  <p>
-                    {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita, */}
-                    mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
-                  </p>
-                </div>
-            </div>
-            <div className="project-block">
-                <div className="project-image">
-                  <img src={image} />
-                  <p>
-                    Lorem ipsum dolor Sint
-                  </p>
-                </div>
-                <div className="project-info">
-                  <h3>
-                    Project Name
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
-                    mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
-                  </p>
-                </div>
-            </div>
-            <div className="project-block">
-                <div className="project-image">
-                  <img src={image} />
-                  <p>
-                    Lorem ipsum dolor Sint
-                  </p>
-                </div>
-                <div className="project-info">
-                  <h3>
-                    Project Name
-                  </h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam eligendi laborum expedita,
-                    mollitia nulla aliquam ea porro necessitatibus reprehenderit officiis aut, amet, error rerum quisquam non delectus modi dolores!
-                  </p>
-                </div>
-            </div>
-            <div style={{clear: "both"}} ></div>
+    var PROJECTS = this.props.projects.map(item => {
+      return (
+        // card-col card project-block1
+        <div className="col-sm-3 ">
+          <div class="card-body card bobo">
+            <p class="lead">{item.name}</p>
+            <p>{item.description}</p>
+            <a href={item.link}>View Project</a>
           </div>
         </div>
+      );
+    });
+    return (
+      <div id="projects" className="background-alt">
+        <h2 className="heading">Projects</h2>
+        <div className="container">
+          <div className="row ">{PROJECTS}</div>
+        </div>
+      </div>
     );
   }
 }
 
-export default About2
+export default About2;
