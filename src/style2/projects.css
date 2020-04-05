@@ -35,6 +35,10 @@
     padding: 5%;
     height: 250px;
     margin-top: 5%;
+    margin-bottom: 25px;
+    border: solid;
+    border-radius: 8px;
+    border-color: cadetblue;
 }
 
 .bobo a {

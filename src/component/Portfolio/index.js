@@ -9,7 +9,7 @@ import Footer from './Footer'
 import Projects from './Projects'
 import Education from './Education'
 import Experience from './Experience'
-import Timeline from './Timeline'
+import Contact from './Contact'
 import allData from '../../resumeData/resume.json'
 class Portfolio extends Component {
 
@@ -49,10 +49,10 @@ class Portfolio extends Component {
           <Lead/>
           <About about={this.state.about} />
           <Experience experience={this.state.experience} />
-          {/* <Timeline/> */}
           <Education education={this.state.education} />
           <Projects projects={this.state.projects} />
           <Skills skills={this.state.skills} />
+          <Contact />
           <Footer/>
         </React.Fragment>
       );
