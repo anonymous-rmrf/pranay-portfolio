@@ -15,9 +15,9 @@ app.use(express.json());
 app.use(bodyParser.json({limit: "50mb"}));
 app.use(bodyParser.urlencoded({limit: "50mb", extended: true, parameterLimit:50000}));
 
-// app.use(favicon(__dirname + '/build/favicon.ico'));
-// app.use(express.static(__dirname));
-// app.use(express.static(path.join(__dirname, 'build')));
+app.use(favicon(__dirname + '/build/favicon.ico'));
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'build')));
 
 
 app.get('/ping', function (req, res) {
@@ -36,9 +36,9 @@ app.post('/sendmail', (req, res) => {
   })
 })
 
-// app.get('*', function (req, res) {
-//   res.sendFile(path.join(__dirname+'/build/index.html'));
-// });
+app.get('*', function (req, res) {
+  res.sendFile(path.join(__dirname+'/build/index.html'));
+});
 
 app.listen(process.env.PORT || PORT, () => {
     console.log(`Running on PORT ${PORT}`)

@@ -1,0 +1,32 @@
+{
+    "works": [
+        {
+            "id": 1,
+            "Title": "Face Authentication system",
+            "Description": "This web application was made for Nasscom. The application used people faces as the primary key for login and signup. During signup face of the user is captured and stored in AWS Rekognition Collection (Only if the face is unique). The application was compatible on large screen size as well as on mobile view.",
+            "Duration": "June 2019",
+            "Languages_Dependencies": "MERN stack, flask, AWS Rekognition libraries(BOTO 3), Bootstrap (for Responsive design)"
+        },
+        {
+            "id": 1,
+            "Title": "Face Authentication system",
+            "Description": "This web application was made for Nasscom. The application used people faces as the primary key for login and signup. During signup face of the user is captured and stored in AWS Rekognition Collection (Only if the face is unique). The application was compatible on large screen size as well as on mobile view.",
+            "Duration": "June 2019",
+            "Languages_Dependencies": "MERN stack, flask, AWS Rekognition libraries(BOTO 3), Bootstrap (for Responsive design)"
+        },
+        {
+            "id": 1,
+            "Title": "Face Authentication system",
+            "Description": "This web application was made for Nasscom. The application used people faces as the primary key for login and signup. During signup face of the user is captured and stored in AWS Rekognition Collection (Only if the face is unique). The application was compatible on large screen size as well as on mobile view.",
+            "Duration": "June 2019",
+            "Languages_Dependencies": "MERN stack, flask, AWS Rekognition libraries(BOTO 3), Bootstrap (for Responsive design)"
+        },
+        {
+            "id": 1,
+            "Title": "Face Authentication system",
+            "Description": "This web application was made for Nasscom. The application used people faces as the primary key for login and signup. During signup face of the user is captured and stored in AWS Rekognition Collection (Only if the face is unique). The application was compatible on large screen size as well as on mobile view.",
+            "Duration": "June 2019",
+            "Languages_Dependencies": "MERN stack, flask, AWS Rekognition libraries(BOTO 3), Bootstrap (for Responsive design)"
+        }
+    ]
+}
