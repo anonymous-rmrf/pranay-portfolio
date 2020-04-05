@@ -40,6 +40,6 @@ app.post('/sendmail', (req, res) => {
 //   res.sendFile(path.join(__dirname+'/build/index.html'));
 // });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`Running on PORT ${PORT}`)
 });
