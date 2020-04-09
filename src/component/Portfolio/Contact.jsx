@@ -7,15 +7,15 @@ import "../../style2/contact.css";
 
 class ContactForm extends Component {
   onFinish = (values) => {
-    console.log('Sending mail...', window.location.href, window.location.hostname)
-    axios.post('http://localhost:8000/sendmail', values)
+    console.log('Sending mail...')
+    axios.post('https://formspree.io/xrgapwzl', values)
     .then(res =>{
-      console.log(res, "response")
+      // console.log(res, "response")
       message.success('Email sent successfully');
       // this.props.form.resetFields()
     })
     .catch(error => {
-      console.log(error, "error")
+      // console.log(error, "error")
       message.error('Some error occurred');
     })
   };

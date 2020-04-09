@@ -29,12 +29,12 @@ class Footer extends Component {
 								<li>
 									<a href="https://www.facebook.com/pranayag15" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 								</li>
-								<li>
+								{/* <li>
 									<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 								</li>
 								<li>
 									<a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-								</li>
+								</li> */}
 							</ul>
 						</div>
 					</div>
