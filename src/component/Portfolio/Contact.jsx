@@ -8,7 +8,7 @@ import "../../style2/contact.css";
 class ContactForm extends Component {
   onFinish = (values) => {
     console.log('Sending mail...', window.location.href, window.location.hostname)
-    axios.post('/sendmail', values)
+    axios.post('http://localhost:8000/sendmail', values)
     .then(res =>{
       console.log(res, "response")
       message.success('Email sent successfully');
