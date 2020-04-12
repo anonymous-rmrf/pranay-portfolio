@@ -4,8 +4,6 @@ var bodyParser = require('body-parser');
 const path = require('path');
 var cors = require('cors')
 
-const sendEmail = require('./nodemailer-config.js')
-
 const PORT = process.env.PORT || 8000;
 const app = express();
 
@@ -23,18 +21,6 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.get('/ping', function (req, res) {
  return res.send('pong');
 });
-
-app.post('/sendmail', (req, res) => {
-  console.log(req.body)
-  sendEmail(req.body).then(response => {
-    console.log(response)
-    res.status(200).json({"result": "yo broo"})
-  })
-  .catch(err => {
-    console.log(err)
-    res.status(500).json({"error": err})
-  })
-})
 
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname+'/build/index.html'));
