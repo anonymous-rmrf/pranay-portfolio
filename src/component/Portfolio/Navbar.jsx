@@ -11,7 +11,7 @@ class Navbar extends Component {
           <div className="navbar-wrapper">
               <center>
             <ul className="navbar-ul" >
-              <Space size={100} >
+              <Space >
                 <li >
                   <a href="#about">About</a>
                 </li>
