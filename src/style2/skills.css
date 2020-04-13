@@ -3,7 +3,7 @@
     padding: 50px 15px;
 }
 
-.heading2 {
+/* .heading2 {
     position: relative;
     display: inline-block;
     font-size: 2em;
@@ -21,10 +21,10 @@
     right: 0px;
     margin: 0px auto;
     background: rgb(52, 152, 219);
-}
+} */
 
 #skills h2 {
-    color: rgb(55, 64, 84);
+    /* color: rgb(55, 64, 84); */
     margin-bottom: 50px;
 } 
 
@@ -37,11 +37,11 @@
 
 #skills li {
     display: inline-block;
-    color: rgb(55, 64, 84);
+    color: whitesmoke;
     cursor: default;
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 7px;
     padding: 5px 10px;
-    background: rgb(228, 228, 234);
+    background: #384446;
     list-style: none;
 }

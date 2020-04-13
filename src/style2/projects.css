@@ -29,21 +29,21 @@
     bottom: 15px;
 }
 
-.bobo {
+.project-card {
     width: 100%;
-    background-color: white;
+    background-color: #0000002e;
     padding: 5%;
     height: 250px;
     margin-top: 5%;
     margin-bottom: 25px;
-    border: solid;
+    /* border: solid; */
     border-radius: 8px;
-    border-color: cadetblue;
+    /* border-color: cadetblue; */
 }
 
-.bobo a {
-    color: #1890ff;
-    background-color: white;
+.project-card a {
+    color: #27aea9;
+    /* background-color: white; */
     /* position: absolute;
     bottom: 15px; */
 }
@@ -53,7 +53,7 @@
       width: 100%;
     }
 
-    .bobo {
+    .project-card {
       margin-bottom: 4%;
     }
   }

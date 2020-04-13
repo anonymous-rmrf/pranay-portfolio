@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import 'antd/dist/antd.css'
+import '../../style2/master.css'
 import axios from 'axios'
 import Navbar from './Header'
+import Header from './Navbar'
 import Lead from './Lead'
 import About from './About'
 import Skills from './Skills'
@@ -45,8 +47,9 @@ class Portfolio extends Component {
     if(this.state.load){
       return (
         <React.Fragment>
-          <Navbar />
+          {/* <Navbar /> */}
           <Lead/>
+          <Header />
           <About about={this.state.about} />
           <Experience experience={this.state.experience} />
           <Education education={this.state.education} />

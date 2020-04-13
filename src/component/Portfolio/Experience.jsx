@@ -48,7 +48,7 @@ class Experience extends Component {
     });
 
     return (
-      <div id="experience" class="background-alt">
+      <div id="experience" className="theme-support">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">{experienceLaptop}</div>
         <div className="timeline-wrapper">

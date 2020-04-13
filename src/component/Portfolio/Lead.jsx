@@ -8,7 +8,7 @@ class Lead extends Component {
       <div id="lead">
         <div id="lead-content">
           <h1>Pranay Agarwal</h1>
-          <h2>Software Engineer</h2>
+          <h2>Full Stack Developer</h2>
           <a href="../pdf/pranayresume.pdf" class="btn-rounded-white" download>Download Resume</a>
         </div>
 

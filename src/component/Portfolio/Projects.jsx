@@ -13,8 +13,8 @@ class About2 extends Component {
       return (
         // card-col card project-block1
         <div className="col-sm-3 ">
-          <div class="card-body card bobo">
-            <p class="lead">{item.name}</p>
+          <div class="card-body card project-card">
+            <h3 class="lead">{item.name}</h3>
             <p>{item.description}</p>
             <a href={item.link}>View Project</a>
           </div>
@@ -22,7 +22,7 @@ class About2 extends Component {
       );
     });
     return (
-      <div id="projects" className="background-alt">
+      <div id="projects" className="theme">
         <h2 className="heading">Projects</h2>
         <div className="container">
           <div className="row ">{PROJECTS}</div>

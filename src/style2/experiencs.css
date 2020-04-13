@@ -1,16 +1,16 @@
 #experience {
 	padding: 50px 15px;
 	text-align: center;
-	border-bottom: 1px solid #dcd9d9
+	/* border-bottom: 1px solid #dcd9d9 */
 }
 
-.background-alt {
+/* .background-alt {
     background: #f2f2f5;
-}
+} */
 
-#experience h2 {
+/* #experience h2 {
 	color: #374054
-}
+} */
 
 #experience-timeline {
 	margin: 30px auto 0 auto;
@@ -44,8 +44,8 @@
 
 .vtimeline-content {
 	margin-left: 350px;
-	background: #fff;
-	border: 1px solid #e6e6e6;
+	background: #0000002e;
+	/* border: 1px solid #57CBCC; */
 	padding: 15px;
 	border-radius: 3px;
 	text-align: left
@@ -54,7 +54,7 @@
 .vtimeline-content h3 {
 	font-size: 1.5em;
 	font-weight: 300;
-	color: #374054;
+	/* color: #374054; */
 	display: inline-block;
 	margin: 0
 }
@@ -62,7 +62,7 @@
 .vtimeline-content h4 {
 	font-size: 1.2em;
 	font-weight: 300;
-	color: #7e8890;
+	color: #b8b8b8;
 	margin: 0 0 15px 0
 }
 
@@ -73,8 +73,8 @@
 }
 
 .vtimeline-content ul li {
-	color: #74808a;
-	font-size: 0.9em;
+	color: whitesmoke;
+	/* font-size: 0.9em; */
 	margin: 0
 }
 
@@ -110,7 +110,7 @@
 	left: 0;
 	top: 10px;
 	font-weight: 300;
-	color: #374054
+	color: whitesmoke;
 }
 
 @media only screen and (max-width: 600px) {

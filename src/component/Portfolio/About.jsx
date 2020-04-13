@@ -5,7 +5,7 @@ import '../../style2/about2.css'
 class About2 extends Component {
   render() {
     return (
-        <div id="about">
+        <div className="theme" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">

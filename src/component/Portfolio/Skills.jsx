@@ -10,7 +10,7 @@ class Skills extends Component {
     })
 
     return (
-      <div id="skills">
+      <div className="theme-support" id="skills">
         <h2 class="heading">Skills</h2>
         <ul>
           {Skills}
