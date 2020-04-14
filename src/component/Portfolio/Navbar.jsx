@@ -11,7 +11,7 @@ class Navbar extends Component {
           <div className="navbar-wrapper">
               <center>
             <ul className="navbar-ul" >
-              <Space >
+              {/* <Space size={50} > */}
                 <li >
                   <a href="#about">About</a>
                 </li>
@@ -30,7 +30,7 @@ class Navbar extends Component {
                 <li >
                   <a href="#contact">Contact</a>
                 </li>
-              </Space>
+              {/* </Space> */}
             </ul>
             </center>
           </div>

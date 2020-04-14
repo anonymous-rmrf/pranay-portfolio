@@ -33,12 +33,12 @@ class Experience extends Component {
         <div class="vtimeline-block">
           <div class="vtimeline-content-mobile">
             <h3>{item.name}</h3>
+            <h4>{item.role}</h4>
             <span class="vtimeline-date-mobile">{item.timeline}</span>
             {/* <div> */}
-            <h4>{item.role}</h4>
             <ul>
               {item.about.map(data => {
-                return <li>{data}</li>;
+                return <li  className="timeline-mobile-text">{data}</li>;
               })}
             </ul>
             {/* </div> */}
