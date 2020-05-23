@@ -3,6 +3,9 @@ const favicon = require('express-favicon');
 var bodyParser = require('body-parser');
 const path = require('path');
 var cors = require('cors')
+var childProcess = require('child_process');
+var githubUsername = 'pranayag15'
+
 
 const PORT = process.env.PORT || 8000;
 const app = express();
@@ -21,6 +24,25 @@ app.use(express.static(path.join(__dirname, 'build')));
 app.get('/ping', function (req, res) {
  return res.send('pong');
 });
+
+app.post("/webhooks/github", function (req, res) {
+    var sender = req.body.sender;
+    var branch = req.body.ref;
+	console.log(req.body, "webhook body")
+    if(branch.indexOf('master') > -1 && sender.login === githubUsername){
+        deploy(res);
+    }
+})
+
+function deploy(res){
+    childProcess.exec('cd .. && ./deploy.sh', function(err, stdout, stderr){
+        if (err) {
+         console.error(err);
+         return res.send(500);
+        }
+        res.send(200);
+      });
+}
 
 app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname+'/build/index.html'));
