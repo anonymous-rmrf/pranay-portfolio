@@ -105,49 +105,4 @@ class ContactForm extends Component {
   }
 }
 
-//<div className="form-box">
-  //          <form
-  //            onSubmit={this.submitForm}
-  //            action="https://formspree.io/xrgapwzl"
-  //            method="POST"
-  //            className="form-wrapper"
-  //          >
-  //            <div class="form-group">
-  //              <input
-  //                type="text"
-  //                placeholder="Your Name"
-  //                class="form-control"
-  //                name="name"
-  //                id="name"
-  //              />
-  //            </div>
-  //            <div class="form-group">
-  //              <input
-  //                type="email"
-  //                placeholder="Your Email"
-  //                class="form-control"
-  //                name="email"
-  //                id="email"
-  //              />
-  //            </div>
-  //            <div class="form-group">
-  //              <textarea
-  //                rows="5"
-  //                placeholder="Message"
-  //                class="form-control"
-  //                name="message"
-  //                id="message"
-  //              ></textarea>
-  //            </div>
-  //            {this.state.status === "SUCCESS" ? (
-  //              <p>Thanks!</p>
-  //            ) : (
-  //              <button className="contact-submit">Submit</button>
-  //            )}
-  //            {this.state.status === "ERROR" && (
-  //              <p>Ooops! There was an error.</p>
-  //            )}
-  //          </form>
-  //        </div>
-
 export default ContactForm;
