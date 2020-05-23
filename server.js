@@ -28,7 +28,7 @@ app.get('/ping', function (req, res) {
 app.post("/webhooks/github", function (req, res) {
     var sender = req.body.sender;
     var branch = req.body.ref;
-	console.log(req.body, "webhook body")
+	console.log(sender, branch, "webhook body")
     if(branch.indexOf('master') > -1 && sender.login === githubUsername){
         deploy(res);
     }
@@ -40,6 +40,7 @@ function deploy(res){
          console.error(err);
          return res.send(500);
         }
+        console.log("pullling")
         res.send(200);
       });
 }
