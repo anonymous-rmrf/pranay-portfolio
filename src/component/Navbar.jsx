@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Space } from "antd";
 import "antd/dist/antd.css";
-import "../../style2/navbar.css";
+import "../style2/navbar.css";
 
 class Navbar extends Component {
   render() {

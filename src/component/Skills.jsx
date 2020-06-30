@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import 'antd/dist/antd.css'
-import '../../style2/skills.css'
+import '../style2/skills.css'
 
 class Skills extends Component {
   render() {

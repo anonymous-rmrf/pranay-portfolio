@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Timeline, Card } from "antd";
 import "antd/dist/antd.css";
-import "../../style2/experiencs.css";
-import "../../style2/timeline.css";
+import "../style2/experiencs.css";
+import "../style2/timeline.css";
 
 class Experience extends Component {
   render() {

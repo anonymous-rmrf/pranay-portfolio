@@ -3,11 +3,10 @@ import "antd/dist/antd.css";
 import {
   FacebookFilled,
   LinkedinFilled,
-  LinkedinOutlined,
+  MediumOutlined,
   GithubFilled,
-  InstagramFilled,
 } from "@ant-design/icons";
-import "../../style2/footer.css";
+import "../style2/footer.css";
 
 class Footer extends Component {
   render() {
@@ -41,6 +40,11 @@ class Footer extends Component {
                 <li>
                   <a href="https://www.facebook.com/pranayag15" target="_blank">
                     <FacebookFilled />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.medium.com/@pranayag15" target="_blank">
+                    <MediumOutlined />
                   </a>
                 </li>
               </ul>

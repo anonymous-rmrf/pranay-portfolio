@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'antd/dist/antd.css';
 import './App.css';
-import Cover from './component/Portfolio/index'
+import Cover from './component/index'
 class App extends Component {
   render() {
     return (

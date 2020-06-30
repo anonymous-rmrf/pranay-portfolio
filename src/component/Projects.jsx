@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "antd/dist/antd.css";
-import "../../style2/projects.css";
-import image from "../../images/cover.jpg";
-import { Card } from "antd";
+import "../style2/projects.css";
 
 class About2 extends Component {
   componentDidMount() {

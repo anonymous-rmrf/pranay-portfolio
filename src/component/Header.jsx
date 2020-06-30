@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import 'antd/dist/antd.css'
-import '../../style2/header.css'
+import '../style2/header.css'
 
 class Header extends Component {
   render() {

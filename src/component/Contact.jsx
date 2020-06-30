@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { Form, Input, Button, Checkbox, message } from "antd";
-import { UserOutlined, MailOutlined, MessageOutlined } from "@ant-design/icons";
+import { Form, Input,  message } from "antd";
 import "antd/dist/antd.css";
-import "../../style2/contact.css";
+import "../style2/contact.css";
 
 
 class ContactForm extends Component {

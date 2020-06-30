@@ -8,7 +8,6 @@ footer {
 }
 
 .social ul {
-    margin: 5px 12% 0 0;
     padding: 0;
 }
 
@@ -28,3 +27,13 @@ footer {
 .social a:hover {
     color: #57cbcc;
 }
+
+@media only screen and (max-width: 600px) {
+    .social {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .copyright {
+        text-align: center;
+    }
+  }

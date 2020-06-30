@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import 'antd/dist/antd.css'
-import '../../style2/master.css'
-import axios from 'axios'
-import Navbar from './Header'
+import '../style2/master.css'
 import Header from './Navbar'
 import Lead from './Lead'
 import About from './About'
@@ -12,7 +10,7 @@ import Projects from './Projects'
 import Education from './Education'
 import Experience from './Experience'
 import Contact from './Contact'
-import allData from '../../resumeData/resume.json'
+import allData from '../resumeData/resume.json'
 class Portfolio extends Component {
 
   constructor(props)
@@ -32,6 +30,8 @@ class Portfolio extends Component {
 
   componentDidMount(){
     this.setState({
+      name: allData.name,
+      position: allData.position,
       about: allData.about,
       experience: allData.experience,
       education: allData.education,
@@ -48,7 +48,7 @@ class Portfolio extends Component {
       return (
         <React.Fragment>
           {/* <Navbar /> */}
-          <Lead/>
+          <Lead name={this.state.name} position={this.state.position} />
           <Header />
           <About about={this.state.about} />
           <Experience experience={this.state.experience} />
