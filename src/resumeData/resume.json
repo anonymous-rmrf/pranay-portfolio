@@ -4,6 +4,15 @@
     "about": "I’m Computer Science undergrad pursuing my Bachelor’s degree from IIIT Bhubaneswar. I’m a full-stack web developer interested in Cloud Computing. I love to automate tasks while working on any project. Most of the code that I write is in JavaScript. \n Besides programming, my newly found interests include cloud computing and system designing. I am a big fan of AWS and always on a lookout for challenging projects and work opportunities related to it.",
     "experience": [
         {
+            "name": "GirlScript Foundation",
+            "timeline": "May 2020 - Present",
+            "role": "Full Stack Developer",
+            "about":[
+                "Developing an online learning platform from scratch.",
+                "Working on integration of backend APIs and other services like Razorpay(payment gateway)."
+            ]
+        },
+        {
             "name": "FINITO",
             "timeline": "March 2019 - Present",
             "role": "Full Stack Developer",
@@ -31,6 +40,11 @@
         }
     ],
     "projects": [
+        {
+            "name": "Automatic NodeJS-MySQL server",
+            "description": "A script that reads MySQL database schema and create all REST dynamic APIs automatically. Also creates APIs for connected tables relations.",
+            "link": "https://github.com/draggers-dagger/dragToMake"
+        },
         {
             "name": "Dynamic UI – Drag and Drop",
             "description": "A WebApp that lets you create a personalized static webpage using drag, drop and resize of components.",
