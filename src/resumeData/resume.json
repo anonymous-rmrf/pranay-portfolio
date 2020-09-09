@@ -5,7 +5,7 @@
     "experience": [
         {
             "name": "GirlScript Foundation",
-            "timeline": "May 2020 - Present",
+            "timeline": "May 2020 - August 2020",
             "role": "Full Stack Developer",
             "about":[
                 "Developing an online learning platform from scratch.",
@@ -14,7 +14,7 @@
         },
         {
             "name": "FINITO",
-            "timeline": "March 2019 - Present",
+            "timeline": "March 2019 - August 2020",
             "role": "Full Stack Developer",
             "about":[
                 "A self-checkout app that lets you scan your product, pay online and go. The project consist of two parts – App and admin web panel for maintaining the inventory and other data.",
@@ -43,7 +43,7 @@
         {
             "name": "Automatic NodeJS-MySQL server",
             "description": "A script that reads MySQL database schema and create all REST dynamic APIs automatically. Also creates APIs for connected tables relations.",
-            "link": "https://github.com/draggers-dagger/dragToMake"
+            "link": "https://github.com/pranayag15/node-automatic-server"
         },
         {
             "name": "Dynamic UI – Drag and Drop",
